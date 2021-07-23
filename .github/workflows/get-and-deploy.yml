@@ -1,5 +1,13 @@
 name: Build and Deploy
-on: [push]
+# on: [push]
+
+#https://docs.github.com/en/actions/reference/events-that-trigger-workflows
+# https://crontab.guru/
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/5 * * * *'
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
