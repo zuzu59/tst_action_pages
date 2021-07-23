@@ -1,0 +1,22 @@
+{
+  "name": "tst_action_pages",
+  "version": "1.0.0",
+  "description": "zf210723.1320",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuzu59/tst_action_pages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuzu59/tst_action_pages/issues"
+  },
+  "homepage": "https://github.com/zuzu59/tst_action_pages#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
