@@ -4,7 +4,7 @@
 const fetch = require('node-fetch');
 
 async function getCommits(){
-  const url="https://api.github.com/repos/GinierClasses/holydraw/commits";
+  const url="https://api.github.com/repos/zuzu59/tst_action_pages/commits";
   const commits= await fetch(url);
   const json= await commits.json();
   // console.log(json); 
